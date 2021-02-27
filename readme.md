@@ -32,6 +32,20 @@ let str = stringifyObject({
 })
 
 console.log(str)
+
+/*
+{
+  "data":{
+    "list":[0,2,4,6,8],
+    "nested":{
+      "value":4
+    }
+  },
+  "method": function (param){
+    console.log(param)
+  }
+}
+*/
 ```
 
 ---
